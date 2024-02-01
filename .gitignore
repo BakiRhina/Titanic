@@ -396,3 +396,19 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ignore virtual environments
+venv/
+env/
+*.venv/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore poetry virtual environment
+poetry.lock
+
+# Ignore conda virtual environment
+.env/
+
