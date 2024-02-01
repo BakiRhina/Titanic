@@ -412,3 +412,9 @@ poetry.lock
 # Ignore conda virtual environment
 .env/
 
+# Models and Datasets
+
+/models
+/data
+.data
+*.data
