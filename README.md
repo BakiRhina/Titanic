@@ -20,60 +20,18 @@ In this section the training dataset will be explored and analysed. The main poi
 
 ### "Sex" and "Survival" relationship analysis
 
-Number of passangers: `891`
-
-Number of men: `577`
-
-Number of women: `314`
-
- 
-Deaths ALL: `549`
-
-Deaths MEN: ``468``
-
-Deaths WOMAN: ``81``
-
- 
-Survived ALL: ``342``
-
-Survived MEN: ``109``
-
-Survived WOMAN: ``233``
-
- 
-Survival: ``38.38 %``
-
- 
-Overall survival MEN: ``12.23 %``
-
-Overall survival WOMEN: ``26.15 %``
-
- 
-Survival among MEN: ``18.89 %``
-
-Survival among WOMEN: ``74.2 %``
-
- 
-Overall deaths MEN:``52.53 %``
-
-Overall deaths WOMEN: ``9.09 %``
-
- 
-Deaths among MEN: ``81.11 %``
-
-Deaths among WOMEN: ``25.8 %``
 
 |                         | Number | Percentage |
 |-------------------------|--------|------------|
-| **Number of Passengers** | 891    |            |
-| **Number of Men**        | 577    |            |
-| **Number of Women**      | 314    |            |
-| **Deaths (All)**         | 549    |            |
-| **Deaths (Men)**         | 468    |            |
-| **Deaths (Women)**       | 81     |            |
-| **Survived (All)**       | 342    |            |
-| **Survived (Men)**       | 109    |            |
-| **Survived (Women)**     | 233    |            |
+| **Number of Passengers** | 891    |    -        |
+| **Number of Men**        | 577    |   -         |
+| **Number of Women**      | 314    |      -      |
+| **Deaths (All)**         | 549    |     -       |
+| **Deaths (Men)**         | 468    |     -       |
+| **Deaths (Women)**       | 81     |      -      |
+| **Survived (All)**       | 342    |       -     |
+| **Survived (Men)**       | 109    |       -     |
+| **Survived (Women)**     | 233    |      -      |
 | **Survival Rate (All)**  | -      | 38.38%     |
 | **Overall Survival (Men)**| -     | 12.23%     |
 | **Overall Survival (Women)**| -   | 26.15%     |
