@@ -51,3 +51,28 @@ From the analysis above the following points can be extracted (some of them are 
 - More than half of the people died (~61%)
 - Among men, 81 % died, 468 out of 549. **(This can be useful so as if 'Sex' is a man, 'Survival' is probably 0)**
 - Among women, 74 % survived, 233 out of 314 **(This can be useful so as if 'Sex' is a woman, 'Survival' is probably 1)**
+
+### Age and survival analysis
+
+In this analysis ages are separated in different classes. Since Titanic sank in 1912, age ranges are designed according to the same period:
+
+- Infant: [0, 2] years old
+- Child: (2, 12] years old
+- Adolescent: (12, 18] years old
+- Young: (18, 25] years old
+- Middle-aged: (25, 40] years old
+- Adult: (40, 60] years old 
+- Elderly: (60+) years old
+
+
+
+The following chart show the number of people in each class, the number of people who survived (in light green) and the number who didn't (in red). The percentage shows the survability of each class.
+
+
+#### Useful insights
+
+
+- Most people is between 20 and 40 years old
+- Elder people had less chance of survival while infants survived the most (in %, not number)
+- Although in some cases it is possible to predict if the person survived or not with enough probability by just looking at the age (**elder** 23% of survival, 77% death or **Infant** 62% survival), other age ranges are more difficult to allocate with confidence.
+
