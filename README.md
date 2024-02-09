@@ -68,6 +68,8 @@ In this analysis ages are separated in different classes. Since Titanic sank in 
 
 The following chart show the number of people in each class, the number of people who survived (in light green) and the number who didn't (in red). The percentage shows the survability of each class.
 
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/a5953e0a-e20e-43e2-bcf2-250771eaf42a)
+
 
 #### Useful insights
 
