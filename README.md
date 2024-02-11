@@ -81,6 +81,7 @@ The following chart show the number of people in each class, the number of peopl
 
 ### Data balance check
 
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/0610eca0-5a86-4a35-9715-817ef15cdcf7)
 
 
 From the analysis above, it is clear that the data is not balanced (not 61.62% (0), 38.38% (1)). Since it is not too imbalanced, we will proceed with data preprocessing and supervised models, and after some results we will implement data balancing techniques such as data augmentation, SMOTE, among others.
