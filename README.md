@@ -78,3 +78,9 @@ The following chart show the number of people in each class, the number of peopl
 - Elder people had less chance of survival while infants survived the most (in %, not number)
 - Although in some cases it is possible to predict if the person survived or not with enough probability by just looking at the age (**elder** 23% of survival, 77% death or **Infant** 62% survival), other age ranges are more difficult to allocate with confidence.
 
+
+### Data balance check
+
+
+
+From the analysis above, it is clear that the data is not balanced (not 61.62% (0), 38.38% (1)). Since it is not too imbalanced, we will proceed with data preprocessing and supervised models, and after some results we will implement data balancing techniques such as data augmentation, SMOTE, among others.
