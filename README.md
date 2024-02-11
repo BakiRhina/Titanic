@@ -70,6 +70,8 @@ The following chart show the number of people in each class, the number of peopl
 
 ![image](https://github.com/BakiRhina/Titanic/assets/108484177/a5953e0a-e20e-43e2-bcf2-250771eaf42a)
 
+**Important observation**: Most of the people falls into the cathegory of Middle Aged Young (25 to 35 y.o.). This number has been affected when dealing with Missing Values due to using the mean to substitute them. In this case, the mean is 29. Therefore, using the mean value to deal with NaN, added **177** people to the Middle Aged Young class.
+
 
 #### Useful insights
 
@@ -84,4 +86,4 @@ The following chart show the number of people in each class, the number of peopl
 ![image](https://github.com/BakiRhina/Titanic/assets/108484177/0610eca0-5a86-4a35-9715-817ef15cdcf7)
 
 
-From the analysis above, it is clear that the data is not balanced (not 61.62% (0), 38.38% (1)). Since it is not too imbalanced, we will proceed with data preprocessing and supervised models, and after some results we will implement data balancing techniques such as data augmentation, SMOTE, among others.
+From the analysis above, it is clear that the data is not balanced (61.62% (0), 38.38% (1)). Since it is not too imbalanced, we will proceed with data preprocessing and supervised models, and after some results we will implement data balancing techniques such as data augmentation, SMOTE, among others.
