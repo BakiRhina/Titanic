@@ -418,3 +418,7 @@ poetry.lock
 /data
 .data
 *.data
+
+# Predictions
+
+/predictions
