@@ -70,7 +70,9 @@ The following chart show the number of people in each class, the number of peopl
 
 ![image](https://github.com/BakiRhina/Titanic/assets/108484177/a5953e0a-e20e-43e2-bcf2-250771eaf42a)
 
-**Important observation**: Most of the people falls into the cathegory of Middle Aged Young (25 to 35 y.o.). This number has been affected when dealing with Missing Values due to using the mean to substitute them. In this case, the mean is 29. Therefore, using the mean value to deal with NaN, added **177** people to the Middle Aged Young class.
+**Important observation**: Most of the people falls into the cathegory of Middle Aged Young (25 to 35 y.o.). This number has been affected when dealing with Missing Values due to using the mean to substitute them. In this case, the mean is 29. Therefore, using the mean value to deal with NaN, added **177** people to the Middle Aged Young class. This observation is crucial, so as it means that without this 177 persons (~50%), the percentage of survival in that cathegory would change completely.
+
+A future approach, in this context, could be equally distributing the ages over all cathegories, therefore not benefiting any class in particular.
 
 
 #### Useful insights
