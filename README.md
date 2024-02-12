@@ -102,6 +102,16 @@ Logistic function: $p(x)=exp(β_0+β_1X)/(1+exp(β_0+β_1X))$
 ![image](https://github.com/BakiRhina/Titanic/assets/108484177/38c4ac16-4e9c-40c2-b28a-26c9f88fa696)
 
 
+Since the **logistic function** doesn't follow the Linear Regression assumptions, we need to find a way to linearize it. One way of doing so is by applying logarithms on it, although to do that the function needs to be manipulated a little bit.
 
+Here's when the odds joins the game. After some manipulation, the following equation is obtained:
 
+$p(x)/1-p(x)=exp(β_0+β_1X)$ where p(x)/1-p(x) are the odds. The ratio of: the probability of the event to the probability of the event not occurring.
 
+This is still not linear, but now it is possible to make it linear by applying logarithms:
+
+$log(p(x)/(1-p(x)))=β_0+β_1X$ Now linear regression methods can be applied on it.
+
+To obtain the optimal estimated parameters β_0 and β_1, **maximum likelihood method** is used.
+
+Finally, the predictions are made with the logistic function and the estimated parameters, which will give the probability p(x) and 1-p(x). These probabilities can then be converted to 1 or 0 with a chosen threshold.
