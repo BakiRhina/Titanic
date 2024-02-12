@@ -89,3 +89,17 @@ A future approach, in this context, could be equally distributing the ages over 
 
 
 From the analysis above, it is clear that the data is not balanced (61.62% (0), 38.38% (1)). Since it is not too imbalanced, we will proceed with data preprocessing and supervised models, and after some results we will implement data balancing techniques such as data augmentation, SMOTE, among others.
+
+
+## Logistic Regression model
+
+Logistic Regression is used in binary classification tasks due to being able to map the predictors ($x_i$) in a probability between 0 (False) and 1 (True). It does so by using a the logistic function (a sigmoid function) that $∀x p(x) ∈ (0,1)$:
+
+Sigmoid function: $y(x)=1/(1+exp(-x))$
+
+Logistic function: $p(x)=exp(β_0+β_1X)/(1+exp(β_0+β_1X))$
+
+
+
+
+
