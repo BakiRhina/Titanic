@@ -99,6 +99,8 @@ Sigmoid function: $y(x)=1/(1+exp(-x))$
 
 Logistic function: $p(x)=exp(β_0+β_1X)/(1+exp(β_0+β_1X))$
 
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/38c4ac16-4e9c-40c2-b28a-26c9f88fa696)
+
 
 
 
