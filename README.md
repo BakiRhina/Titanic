@@ -131,6 +131,34 @@ Finally, the predictions are made with the logistic function and the estimated p
 ### Logistic Regression with one variable
 
 
+
+|           | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| Class 0   |   0.81    |  0.85  |   0.83   |   549   |
+| Class 1   |   0.74    |  0.68  |   0.71   |   342   |
+|-----------|-----------|--------|----------|---------|
+| Accuracy  |           |        |   0.79   |   891   |
+| Macro Avg |   0.78    |  0.77  |   0.77   |   891   |
+| Weighted Avg | 0.78  |  0.79  |   0.78   |   891   |
+
+Class 0: Passed away
+Class 1: Survived
+
+- **Precision:** The ratio of correctly predicted positive observations to the total predicted positives. For Class 0, it's 0.81, and for Class 1, it's 0.74.
+
+- **Recall:** The ratio of correctly predicted positive observations to all observations in the actual class. For Class 0, it's 0.85, and for Class 1, it's 0.68.
+
+- **F1-Score:** The weighted average of Precision and Recall, where 1 is the best value and 0 is the worst. For Class 0, it's 0.83, and for Class 1, it's 0.71.
+
+- **Support:** The number of actual occurrences of the class in the specified dataset. For Class 0, it's 549, and for Class 1, it's 342.
+
+- **Accuracy:** The overall correct predictions divided by the total number of predictions. In this case, it's 0.79 or 79%.
+
+- **Macro Avg:** The average precision, recall, and F1-score across all classes, with equal weight for each class. The values are 0.78, 0.77, and 0.77, respectively.
+
+- **Weighted Avg:** Similar to Macro Avg, but it considers the number of occurrences of each class in the dataset, giving more weight to the class with more instances. The values are 0.78, 0.79, and 0.78, respectively.
+
+
 ### Logistic Regression using the 4 highest pearson coefficient classes.
 
 
