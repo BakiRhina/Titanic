@@ -115,3 +115,17 @@ $log(p(x)/(1-p(x)))=β_0+β_1X$ Now linear regression methods can be applied on 
 To obtain the optimal estimated parameters β_0 and β_1, **maximum likelihood method** is used.
 
 Finally, the predictions are made with the logistic function and the estimated parameters, which will give the probability p(x) and 1-p(x). These probabilities can then be converted to 1 or 0 with a chosen threshold.
+
+
+### Pearson Correlation Matrix
+
+Pearson coefficients provide the correlation, ranging between -1 and 1, between variables. It is very useful when dealing with dimensionality reduction or feature engineering so as it tells which variables tend to "predict" or be more related to the target value (depdendent variable).
+
+In this case it is used to see which variables are more suitable to use with the models. The result is the matrix below:
+
+
+
+
+
+
+Once the pearson coeficients are obtained, the classes with higher absolute coeficients (with the target class) will be chosen to train the model. In this case, there's strong or high correlation (that does **NOT** mean causality) between **'Survived'** and **Pclass**, **Fare**, **Sex** and **Cabin**. Therefore, a training dataset with these values will be built.
