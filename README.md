@@ -90,6 +90,18 @@ A future approach, in this context, could be equally distributing the ages over 
 
 From the analysis above, it is clear that the data is not balanced (61.62% (0), 38.38% (1)). Since it is not too imbalanced, we will proceed with data preprocessing and supervised models, and after some results we will implement data balancing techniques such as data augmentation, SMOTE, among others.
 
+### Pearson Correlation Matrix
+
+Pearson coefficients provide the correlation, ranging between -1 and 1, between variables. It is very useful when dealing with dimensionality reduction or feature engineering so as it tells which variables tend to "predict" or be more related to the target value (depdendent variable).
+
+In this case it is used to see which variables are more suitable to use with the models. The result is the matrix below:
+
+
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/94414a69-c7bc-4df0-aa75-015133f639f5)
+
+
+Once the pearson coeficients are obtained, the classes with higher absolute coeficients (with the target class) will be chosen to train the model. In this case, there's strong or high correlation (that does **NOT** mean causality) between **'Survived'** and **Pclass**, **Fare**, **Sex** and **Cabin**. Therefore, a training dataset with these values will be built.
+
 
 ## Logistic Regression model
 
@@ -116,15 +128,11 @@ To obtain the optimal estimated parameters β_0 and β_1, **maximum likelihood m
 
 Finally, the predictions are made with the logistic function and the estimated parameters, which will give the probability p(x) and 1-p(x). These probabilities can then be converted to 1 or 0 with a chosen threshold.
 
-
-### Pearson Correlation Matrix
-
-Pearson coefficients provide the correlation, ranging between -1 and 1, between variables. It is very useful when dealing with dimensionality reduction or feature engineering so as it tells which variables tend to "predict" or be more related to the target value (depdendent variable).
-
-In this case it is used to see which variables are more suitable to use with the models. The result is the matrix below:
+### Logistic Regression with one variable
 
 
-![image](https://github.com/BakiRhina/Titanic/assets/108484177/94414a69-c7bc-4df0-aa75-015133f639f5)
+### Logistic Regression using the 4 highest pearson coefficient classes.
 
 
-Once the pearson coeficients are obtained, the classes with higher absolute coeficients (with the target class) will be chosen to train the model. In this case, there's strong or high correlation (that does **NOT** mean causality) between **'Survived'** and **Pclass**, **Fare**, **Sex** and **Cabin**. Therefore, a training dataset with these values will be built.
+
+
