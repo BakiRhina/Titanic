@@ -124,8 +124,7 @@ Pearson coefficients provide the correlation, ranging between -1 and 1, between 
 In this case it is used to see which variables are more suitable to use with the models. The result is the matrix below:
 
 
-
-
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/94414a69-c7bc-4df0-aa75-015133f639f5)
 
 
 Once the pearson coeficients are obtained, the classes with higher absolute coeficients (with the target class) will be chosen to train the model. In this case, there's strong or high correlation (that does **NOT** mean causality) between **'Survived'** and **Pclass**, **Fare**, **Sex** and **Cabin**. Therefore, a training dataset with these values will be built.
