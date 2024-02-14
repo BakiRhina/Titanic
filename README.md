@@ -130,13 +130,14 @@ Finally, the predictions are made with the logistic function and the estimated p
 
 ### Logistic Regression with one variable
 
+From the data exploration, 'Sex' stood up as a strong variable to predict the target class. Therefore, Logistic Regression with this feature will be tested out.
 
 
 |           | Precision | Recall | F1-Score | Support |
 |-----------|-----------|--------|----------|---------|
 | Class 0   |   0.81    |  0.85  |   0.83   |   549   |
 | Class 1   |   0.74    |  0.68  |   0.71   |   342   |
-|-----------|-----------|--------|----------|---------|
+|           |           |        |          |         | 
 | Accuracy  |           |        |   0.79   |   891   |
 | Macro Avg |   0.78    |  0.77  |   0.77   |   891   |
 | Weighted Avg | 0.78  |  0.79  |   0.78   |   891   |
@@ -157,6 +158,12 @@ Class 1: Survived
 - **Macro Avg:** The average precision, recall, and F1-score across all classes, with equal weight for each class. The values are 0.78, 0.77, and 0.77, respectively.
 
 - **Weighted Avg:** Similar to Macro Avg, but it considers the number of occurrences of each class in the dataset, giving more weight to the class with more instances. The values are 0.78, 0.79, and 0.78, respectively.
+
+Kaggle Results:
+
+|Score|
+|-----------|
+|0.76555|
 
 
 ### Logistic Regression using the 4 highest pearson coefficient classes.
