@@ -159,6 +159,10 @@ Class 1: Survived
 
 - **Weighted Avg:** Similar to Macro Avg, but it considers the number of occurrences of each class in the dataset, giving more weight to the class with more instances. The values are 0.78, 0.79, and 0.78, respectively.
 
+To clearly visualize the predictions, here's shown a confusion matrix:
+
+
+
 Kaggle Results:
 
 |Score|
