@@ -162,6 +162,9 @@ Class 1: Survived
 To clearly visualize the predictions, here's shown a confusion matrix:
 
 
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/bc726a79-8196-4145-bf25-aae506684c29)
+
+
 
 Kaggle Results:
 
