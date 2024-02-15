@@ -197,9 +197,22 @@ On the other hand, the **training time** is higher than other models (**Decision
 
 #### Random Forest on this dataset
 
-A hyperparameter tunning with GridSearchCV has been applied to acquire the optimal paramters for our model. 
+A hyperparameter tunning with GridSearchCV has been applied to acquire the optimal paramters for our model.
+
+```python
+RandomForestClassifier(max_depth=10, min_samples_leaf=5, n_estimators=30,
+                       n_jobs=-1, random_state=42)
+``` 
+
+The confusion matrix using the model above is provided here, with a slight improvement over Logistic Regression models:
 
 
 
 
 
+Finally, the score from Kaggle is shown below:
+
+
+|Score|
+|-----------|
+|0.77272|
