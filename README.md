@@ -128,7 +128,9 @@ To obtain the optimal estimated parameters β_0 and β_1, **maximum likelihood m
 
 Finally, the predictions are made with the logistic function and the estimated parameters, which will give the probability p(x) and 1-p(x). These probabilities can then be converted to 1 or 0 with a chosen threshold.
 
-### Logistic Regression with one variable
+---
+
+### Logistic Regression
 
 From the data exploration, 'Sex' stood up as a strong variable to predict the target class. Therefore, Logistic Regression with this feature will be tested out.
 
@@ -172,8 +174,31 @@ Kaggle Results:
 |-----------|
 |0.76555|
 
+---
 
-### Logistic Regression using the 4 highest pearson coefficient classes.
+### Random Forest
+
+A simple step by step workflow of this model:
+
+1. Create **Bootstrap Samples**: Construct different samples of the dataset with replacements by randomly selecting the rows and columns from the dataset. These are known as bootstrap samples.
+2. Build **Decision Trees**: Construct the decision tree on each bootstrap sample as per the hyperparameters.
+3. Generate Final Output: Combine the output of all the decision trees to generate the final output.
+
+Random Forest can be used for regression and classification. Since RF is based on majority voting or averaging, overfitting is less prone to occur. More advantages of this model:
+
+- It performs well even if the data contains null/missing values.
+- Each decision tree created is independent of the other; thus, it shows the property of parallelization.
+- It is highly stable as the average answers given by a large number of trees are taken.
+- It maintains diversity as all the attributes are not considered while making each decision tree though it is not true in all cases.
+- It is immune to the curse of dimensionality. Since each tree does not consider all the attributes, feature space is reduced.
+- We don’t have to segregate data into train and test as there will always be 30% of the data, which is not seen by the decision tree made out of bootstrap.
+
+On the other hand, the **training time** is higher than other models (**Decision trees**, **Logistic Regression**) due to its complexity and that whenver it has to make a prediction, each tree has to produce an output for the given data.
+
+#### Random Forest on this dataset
+
+A hyperparameter tunning with GridSearchCV has been applied to acquire the optimal paramters for our model. 
+
 
 
 
