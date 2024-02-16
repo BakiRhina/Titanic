@@ -164,8 +164,7 @@ Class 1: Survived
 To clearly visualize the predictions, here's shown a confusion matrix:
 
 
-![image](https://github.com/BakiRhina/Titanic/assets/108484177/bc726a79-8196-4145-bf25-aae506684c29)
-
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/94efe320-e59c-4cbc-9164-ec9241e2dff6)
 
 
 Kaggle Results:
@@ -207,6 +206,7 @@ RandomForestClassifier(max_depth=10, min_samples_leaf=5, n_estimators=30,
 The confusion matrix using the model above is provided here, with a slight improvement over Logistic Regression models:
 
 
+![image](https://github.com/BakiRhina/Titanic/assets/108484177/fddb262e-2e74-47d5-aac2-f2ab90dcf06b)
 
 
 
